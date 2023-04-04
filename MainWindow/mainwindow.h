@@ -17,8 +17,9 @@ public:
 
 private slots:
     void on_actionshowdock_D_triggered();
-
+    void on_actionedit_triggered();
     void on_actionNew_N_triggered();
+    void slot_set_text(const QString& string);
 
 private:
     Ui::MainWindow *ui;
