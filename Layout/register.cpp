@@ -66,7 +66,6 @@ Register::Register(QWidget *parent) :
 
     connect(_reg_btn, &QPushButton::clicked, this, &Register::Slot_register);
 }
-
 Register::~Register()
 {
     delete ui;
